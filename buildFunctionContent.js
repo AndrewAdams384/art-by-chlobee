@@ -20,5 +20,4 @@ const filepath = `${process.cwd()}/functions/products.json`;
 
 const products = getProducts()
 
-
 fs.writeFileSync(filepath, JSON.stringify(products)) 

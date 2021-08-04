@@ -1,7 +1,7 @@
 ---
 id: 5
-name: punching bag
-description: punch it!
+name: Punching Bag
+description: Punch it!
 price: 2500
 ---
 

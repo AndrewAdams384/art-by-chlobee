@@ -27,7 +27,7 @@ const Navbar = () => {
         <Nav>
             <NavContainer>
                 <Link href='/'>
-                    <UnstyledLink>art by chlobee</UnstyledLink>
+                    <UnstyledLink>Digital Storefront</UnstyledLink>
                 </Link>
                 <BiCartAlt fontSize='2.5rem' onClick={handleClick} />
             </NavContainer>

@@ -1,7 +1,7 @@
 ---
 id: 2
-name: laundry basket
-description: time to do the laundry...
+name: Laundry Basket
+description: Time to do the laundry...
 price: 1200
 ---
 

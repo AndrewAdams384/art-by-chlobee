@@ -1,7 +1,7 @@
 ---
 id: 1
-name: basketball hoop
-description: A ring and backboard for fun times!
+name: Basketball Hoop
+description: What the pros play with!
 price: 2600
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: 6
-name: table
-description: eat food on it
+name: Table
+description: Eat food on it!
 price: 48000
 ---
 
