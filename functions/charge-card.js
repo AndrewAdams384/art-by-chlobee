@@ -1,11 +1,10 @@
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
-const products = require ('./products,json');
+const products = require ('./products.json');
 
 
 exports.handler = async (event, context) => {  
 const { cart } = JSON.parse(event.body);
-
 
 const cartWithProducts = cart.map(({ id, qty }) => {
     const product = products.find(p => p.id === id)
@@ -15,7 +14,7 @@ const cartWithProducts = cart.map(({ id, qty }) => {
     };
 })
 console.log(cartWithProducts);
-const lineitems = cartWithProducts.map(product => ({
+const lineitems = cartWithProducts.map((product) => ({
     price_data: {
         currency: 'usd',
         product_data: {
